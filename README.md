@@ -22,7 +22,9 @@ Observe que dependendo do seu gerenciador de arquivos, como também o visualizad
 ***
 
 ## RGB_to_CMYK em AppImage
-Para facilitar o uso do RGB_to_CMYK empacotei o mesmo em AppImage, bastando dar as permissões de execução uma única vez e dando dois cliques sobre o mesmo. Fique ciente que ao utilizar o RGB_to_CMYK no formato shell script é preciso adicionar e configurar o caminho onde os perfis ICC se encontram, além de ter o Imagemagick em seu sistema. No AppImage nenhuma configuração deste tipo é necessária. É possível integrar o AppImage via **AppImageLauncher** e similares ao menu do seus sitema (esteja ciente que por se tratar de um utilitário script baseado em Zenity terá um ícone genérico).
+Para facilitar o uso do RGB_to_CMYK empacotei o mesmo em AppImage, bastando dar as permissões de execução uma única vez e dando dois cliques sobre o mesmo. Fique ciente que ao utilizar o RGB_to_CMYK no formato shell script é preciso adicionar e configurar o caminho onde os perfis ICC se encontram, além de ter o Imagemagick em seu sistema. 
+
+No AppImage nenhuma configuração deste tipo é necessária. É possível integrar o AppImage via **AppImageLauncher** e similares ao menu do seus sitema (esteja ciente que por se tratar de um utilitário script baseado em Zenity terá um ícone genérico).
 
 [Baixe o RGB_to_CMYK em AppImage!](https://github.com/henriquead7/RGB_to_CMYK/releases/download/v1.1/RGB_to_CMYK-x86_64.AppImage)
 
