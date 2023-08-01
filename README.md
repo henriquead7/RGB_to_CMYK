@@ -17,7 +17,7 @@ RGB_to_CMYK primeiro converte as imagens em um perfil de cores sRGB (**sRGB-elle
 
 É bem simples utilizar o RGB_to_CMYK, bastando escolher a pasta de origem com os arquivos à serem convertidos e ao finalizar o processo uma pasta de nome "CMYK" (no diretório de origem) será criada com todas as imagens em CMYK.
 
-Observe que dependendo do seu gerenciador de arquivos, como também o visualizador de imagens, arquivos em CMYK podem tomar uma coloração bem estranha em telas RGB. Aconselho ver o resultado com o apoio do software Krita. Abrindo sua imagem convertida por ele, poderá ver o resultado real que aparecerá na impressão.
+Observe que dependendo do seu gerenciador de arquivos, como também o visualizador de imagens, arquivos em CMYK podem tomar uma coloração bem estranha em telas RGB. Aconselho ver o resultado com o apoio do software Krita. Abrindo sua imagem convertida por ele, poderá ver o resultado real que aparecerá na impressão (no momento CMYK/8-bit).
 
 ***
 
