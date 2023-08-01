@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=RGB to CMYK
+Comment=Converte imagens no perfil de cores RGB para CMYK
+Exec=AppRun
+Terminal=true
+Type=Application
+Icon=RGB_to_CMYK
+X-AppImage-Version=1.1
+MimeType=text/html;
+Categories=Utility;
