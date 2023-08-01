@@ -15,6 +15,8 @@ Obviamente que existe uma diferença consideravel entre as cores em RGB e CMYK, 
 
 RGB_to_CMYK primeiro converte as imagens em um perfil de cores sRGB (sRGB-elle-V2-srgbtrc.icc) para só então conerter para um perfil CMYK (Coated_Fogra39L_VIGC_300.icc). Isso é feito para melhor controle de cores e um resultado mais apróximo possível dos arquivos originais.
 
+É bem simples utilizar o RGB_to_CMYK, bastando escolher a pasta de origem com os arquivos à serem convertidos e ao finalizar o processo uma pasta de nome "CMYK" (no diretório de origem) será criada com todas as imagens em CMYK.
+
 ***
 
 ## RGB_to_CMYK em AppImage
