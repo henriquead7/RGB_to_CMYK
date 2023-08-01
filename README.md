@@ -1,2 +1,32 @@
 # RGB_to_CMYK
 Converta em lote imagens no perfil de cores RGB para CMYK
+
+**RGB_to_CMYK** é um shell script Linux que faz uso dos utilitárioS **Imagemagick**, para conversão das imagens, e **Zenity** para interface gráfica.
+Originalmente este script era apenas de uso interno, afim de convertes minhas imagens em pmg/jpeg no perfil de cores RGB para CMYK, mas sem uma interface gráfica e tratamento de erros simples.
+
+Atualmente o RGB_to_CMKY possui uma interface interativa em Zenity bem simples, mas que torna a experiência rica, basta selecionar a pasta de origem com as imagens e esperar o termino da conversão.
+
+***
+
+## Funções do RGB_to_CMYK
+O padrão de cores RGB é largamente utilizado para arquivos que se destinam à visualização em telas, enquanto o CMYK é destinado à impressão física. Com o intuito de converter minhas imagens e obter o mais próximo possível do range de cores que estou vendo na tela em minhas impressões, resolvi criar esse simples utilitário em shell script.
+
+Obviamente que existe uma diferença consideravel entre as cores em RGB e CMYK, sendo aconselhável criar seus arquivos com finalidade para impressão dês do inicío com CMYK. No entanto nem sempre existe essa possibilidade.
+
+RGB_to_CMYK primeiro converte as imagens em um perfil de cores sRGB (sRGB-elle-V2-srgbtrc.icc) para só então conerter para um perfil CMYK (Coated_Fogra39L_VIGC_300.icc). Isso é feito para melhor controle de cores e um resultado mais apróximo possível dos arquivos originais.
+
+***
+
+## RGB_to_CMYK em AppImage
+Para facilitar o uso do RGB_to_CMYK empacotei o mesmo em AppImage, bastando dar as permissões de execução uma única vez e dando dois cliques sobre o mesmo. Fique ciente que ao utilizar o RGB_to_CMYK no formato shell script é preciso adicionar e configurar o caminho onde os perfis ICC se encontram, além de ter o Imagemagick em seu sistema. No AppImage nenhuma configuração deste tipo é necessária. É possível integrar o AppImage via **AppImageLauncher** (esteja ciente que por se tratar de um utilitário script baseado em Zenity terá um ícone genérico).
+
+***
+
+## Considere apoiar o projeto OSistemático
+
+[Apoia.se](https://apoia.se/osistematico) |
+[Youtube](https://www.youtube.com/OSistematico) |
+[Site](http://www.osistematico.com.br/) |
+[Twitter](https://twitter.com/henriquead7)
+
+***Obrigado pela atenção e apoio de todos, SISTEMATICAMENTE!***
