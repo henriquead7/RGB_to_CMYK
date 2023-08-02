@@ -28,7 +28,7 @@ Para facilitar o uso do RGB_to_CMYK empacotei o mesmo em AppImage, bastando dar 
 
 No AppImage nenhuma configuração deste tipo é necessária. É possível integrar o AppImage via **AppImageLauncher** e similares ao menu do seus sitema (esteja ciente que por se tratar de um utilitário script baseado em Zenity terá um ícone genérico).
 
-[Baixe o RGB_to_CMYK em AppImage!](https://github.com/henriquead7/RGB_to_CMYK/releases/download/v1.1/RGB_to_CMYK-x86_64.AppImage)
+[Baixe o RGB_to_CMYK em AppImage!](https://github.com/henriquead7/RGB_to_CMYK/releases/download/v1.1/RGB_to_CMYK-x86_64_v1.1.AppImage)
 
 ***
 
