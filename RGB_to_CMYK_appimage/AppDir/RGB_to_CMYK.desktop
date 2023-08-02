@@ -2,7 +2,7 @@
 Name=RGB to CMYK
 Comment=Converte imagens no perfil de cores RGB para CMYK
 Exec=AppRun
-Terminal=true
+Terminal=false
 Type=Application
 Icon=RGB_to_CMYK
 X-AppImage-Version=1.1
