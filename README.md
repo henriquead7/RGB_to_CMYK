@@ -1,6 +1,8 @@
 # RGB_to_CMYK
 Converta em lote imagens no perfil de cores RGB para CMYK
 
+![](https://github.com/henriquead7/RGB_to_CMYK/blob/main/RGB_to_CMYK_appimage/AppDir/RGB_to_CMYK.png)
+
 **RGB_to_CMYK** é um shell script Linux que faz uso dos utilitários **Imagemagick**, para conversão das imagens, e **Zenity** para interface gráfica.
 Originalmente este script era apenas de uso interno, afim de converter minhas imagens em png/jpeg no perfil de cores RGB para CMYK, mas sem uma interface gráfica e tratamento de erros simples.
 
